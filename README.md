@@ -5,4 +5,4 @@
 - [ ] Observer
 - [ ] Memento
 - [ ] State
-- [ ] Proxy
+- [ ] Command
