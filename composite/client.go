@@ -2,8 +2,13 @@ package composite
 
 import "fmt"
 
-// Client
-func Execute() {
+type Client struct{}
+
+func (c *Client) GetName() string {
+	return "composite"
+}
+
+func (c *Client) Execute() {
 	fmt.Printf("Execute composite pattern.\n")
 
 	// --bin
