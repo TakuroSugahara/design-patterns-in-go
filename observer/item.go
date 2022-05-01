@@ -2,7 +2,7 @@ package observer
 
 import "fmt"
 
-// Concreate subject
+// Concrete subject
 type item struct {
 	observerList []observer
 	name         string

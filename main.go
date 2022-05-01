@@ -6,6 +6,7 @@ import (
 	"github.com/TakuroSugahara/design-patterns-in-go/composite"
 	"github.com/TakuroSugahara/design-patterns-in-go/memento"
 	"github.com/TakuroSugahara/design-patterns-in-go/observer"
+	"github.com/TakuroSugahara/design-patterns-in-go/state"
 )
 
 type client interface {
@@ -31,6 +32,7 @@ func main() {
 			&composite.Client{},
 			&observer.Client{},
 			&memento.Client{},
+			&state.Client{},
 		},
 	}
 	handler.ExecuteAll()

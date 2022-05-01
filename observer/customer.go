@@ -2,7 +2,7 @@ package observer
 
 import "fmt"
 
-// Concreate observer
+// Concrete observer
 type customer struct {
 	id string
 }
