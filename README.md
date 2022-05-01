@@ -4,5 +4,5 @@
 - [ ] Strategy
 - [x] Observer
 - [x] Memento
-- [ ] State
+- [x] State
 - [ ] Command
