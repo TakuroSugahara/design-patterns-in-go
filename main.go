@@ -4,6 +4,7 @@ import (
 	"fmt"
 
 	"github.com/TakuroSugahara/design-patterns-in-go/composite"
+	"github.com/TakuroSugahara/design-patterns-in-go/memento"
 	"github.com/TakuroSugahara/design-patterns-in-go/observer"
 )
 
@@ -29,6 +30,7 @@ func main() {
 		clientList: []client{
 			&composite.Client{},
 			&observer.Client{},
+			&memento.Client{},
 		},
 	}
 	handler.ExecuteAll()
