@@ -3,6 +3,6 @@
 - [x] Composite
 - [ ] Strategy
 - [x] Observer
-- [ ] Memento
+- [x] Memento
 - [ ] State
 - [ ] Command
